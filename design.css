@@ -1,0 +1,1990 @@
+﻿* {
+                padding: 0;
+                margin: 0;
+}
+
+.header_home {
+                width: 100%;
+                height: 1080px;
+                padding-top: 80px;
+                background-image: url(images/230208_headerbild_home.jpg);
+                background-repeat: no-repeat;       
+}
+
+.telnav {
+                height: 60px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+}
+
+.telephone {
+                width: 60px;
+                background-color: rgba(51, 44, 36, 0.9);
+                border-radius: 0px 10px 10px 0px;
+}
+
+.telephone img {
+                width: 100%;
+                height: auto;
+}
+
+.telephone:hover {
+                background-color: #e5ac1b;
+}
+
+.navigation {
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                background-color: rgba(51, 44, 36, 0.9);
+                padding-top: 15px;
+                border-radius: 10px 0px 0px 10px;                                                            
+}
+
+.navigation a {
+                text-decoration: none;
+                color: #ffffff;
+                padding: 0px 28px 0px 28px;
+}
+
+#home {
+                padding-left: 25px;
+}
+
+a:hover {
+                color: #e5ac1b;
+}
+
+.mail {
+                width: 60px;
+                height: 60px;
+                background-color: rgba(51, 44, 36, 0.9);
+                border-radius: 0px 10px 10px 0px;
+                margin-top: 10px;
+}
+
+.mail img {
+                width: 100%;
+                height: auto;
+}
+
+.mail:hover {
+                background-color: #e5ac1b;
+}
+
+.header_home h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                padding-top: 16px;                
+}
+
+.willkommen {
+                
+                width: 50%;
+                height: 120px;
+                margin-top: 495px;
+                background-color: rgba(51, 44, 36, 0.9);
+                border-radius: 0px 20px 20px 0px;
+}
+
+#booknow {
+                font-size: 18pt; 
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                padding-top: 5px;               
+}
+
+#booknow a {
+                text-decoration: none;
+                color: #ffffff;  
+}
+
+#booknow a:hover {
+                color: #e5ac1b;
+}
+
+.headline {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+}
+
+.headline h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #000000;
+                text-align: center;
+                margin-bottom: 20px;
+                line-height: 0pt;             
+}
+
+.headline h2 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                color: #000000;
+                text-align: center;
+                margin-bottom: 50px;
+}
+
+
+/*.content_1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 100px;               
+}
+
+.content_image_left {
+                display: flex;
+                height: 338px;
+                width: 45%;
+                background-color: #e5ac1b;
+                justify-content: flex-end;
+                border-radius: 0px 40px 40px 0px; 
+}
+
+.content_image_left img {
+                width: auto;
+                border-radius: 0px 40px 40px 0px;
+}
+
+.content_text_right {
+                display: flex;
+                flex-direction: column;
+                height: 338px;
+                width: 45%;
+                justify-content: center;
+                align-items: flex-start;
+}
+
+.content_text_right h2 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                margin-bottom: 20px;
+}
+
+.text_r {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+}
+
+.content_2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 100px;
+}                
+
+.content_image_right {
+                display: flex;
+                height: 338px;
+                width: 45%;
+                background-color: #e5ac1b;
+                justify-content: flex-start;
+                border-radius: 40px 0px 0px 40px; 
+}
+
+.content_image_right img {
+                width: auto;
+                border-radius: 40px 0px 0px 40px;
+}
+
+.content_text_left {
+                display: flex;
+                flex-direction: column;
+                height: 338px;
+                width: 45%;
+                justify-content: center;
+                align-items: flex-end;
+}
+
+
+.content_text_left h2 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                margin-bottom: 20px;
+                align-self: flex-start;
+                margin-left: 264px;
+}
+
+.text_l {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+}
+
+.content_3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 100px;               
+}
+
+.content_image_left {
+                display: flex;
+                height: 338px;
+                width: 45%;
+                background-color: #e5ac1b;
+                justify-content: flex-end;
+                border-radius: 0px 40px 40px 0px; 
+}
+
+.content_image_left img {
+                width: auto;
+                border-radius: 0px 40px 40px 0px;
+}
+
+.content_text_right {
+                display: flex;
+                flex-direction: column;
+                height: 338px;
+                width: 45%;
+                justify-content: center;
+                align-items: flex-start;
+}
+
+.content_text_right h2 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                margin-bottom: 20px;
+}
+
+.text_r2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+}*/
+
+.home_content .p1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+                line-height: 16pt;
+}
+
+.home_content_1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 100px 120px 100px 120px;                
+}
+
+.home_content_1 h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                color: #e5ac1b; 
+}
+
+.home_content_1 h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                margin-top: 20px;
+}
+
+.home_text_right {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                margin-top: 20px;
+                line-height: 16pt;
+}
+
+.home_content_1 img {
+                border-radius: 40px;
+                box-shadow: 8px 8px 20px #61584e; 
+}
+
+.home_content_1 h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+}
+
+.home_content_1 h3 a {
+                text-decoration: none;
+                color: #ffffff;
+}
+
+.home_content_1 h3:hover {
+                background-color: #e5ac1b;
+}
+
+.home_content_2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 120px 100px 120px; 
+}
+
+.home_content_2 h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                color: #e5ac1b; 
+}
+
+.home_content_2 h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                margin-top:20px;
+}
+
+.home_content_2 img {
+                border-radius: 40px;
+                box-shadow: 8px 8px 20px #61584e;
+}
+
+.home_content_2 h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+}
+
+.home_content_2 h3 a {
+                text-decoration: none;
+                color: #ffffff;
+}
+
+.home_content_2 h3:hover {
+                background-color: #e5ac1b;
+}
+
+.home_content_3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 120px 100px 120px; 
+}
+
+.home_content_3 h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                color: #e5ac1b; 
+}
+
+
+.home_content_3 h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                margin-top: 20px;
+}
+
+.home_content_3 img {
+                border-radius: 40px;
+                box-shadow: 8px 8px 20px #61584e;
+}
+
+.home_feedback {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                line-height: 16pt;
+}
+
+.home_feedback a {
+                text-decoration: none;
+                color: #e5ac1b; 
+}
+
+.home_feedback a:hover {
+                text-decoration: none;
+                color: #e5ac1b;
+                font-size: 14pt; 
+}
+
+#herz {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-bottom: 100px;
+                margin-top: 100px;
+}
+
+.footer {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: flex-end;
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                padding: 100px 0px 50px 0px;
+                background-color: rgba(51, 44, 36, 1);                                                            
+}
+
+.footer .kontakt {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                line-height: 16pt;
+                text-align: center;
+                margin-right: 352px;
+                
+}
+
+
+/*.footer table {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: left;
+                color: #ffffff;
+                margin: 0px 530px 0px 0px;
+                
+}
+
+
+
+.footer th {
+                padding: 0px 10px 0px 10px;
+}*/
+
+#footer_kontakt {
+                padding-right: 40px;
+}
+
+.footer a {
+                text-decoration: none;
+                color: #ffffff;
+                padding: 0px 20px 0px 20px;
+}
+
+.footer a:hover {
+                color: #e5ac1b;
+}
+
+.kontakt_zimmer {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                line-height: 16pt;
+                text-align: center;
+                margin-right: 312px;
+}
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_zimmer {
+                padding-top: 80px;
+                width: 100%;
+                height: 600px;
+                background-image: url(images/230209_headerbild_zimmer.jpg);
+                background-repeat: no-repeat;
+}
+
+.header_zimmer h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+}
+
+#sww {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+}
+
+.content_zimmer .p1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+                line-height: 16pt;
+}
+
+.zimmer_1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 200px 100px 200px;              
+}
+
+.bookHolsteiner {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                align-self: flex-end;
+}
+
+.bookHolsteinerBox {
+                width: 180px;
+}
+
+.bookHolsteinerBox:hover {
+                background-color: #e5ac1b; 
+}
+
+.bookHolsteiner a {
+                text-decoration: none;                
+}
+
+.ho2 {
+                text-decoration: none;
+}
+
+.header_holsteiner {
+                padding-top: 80px;
+                width: 100%;
+                height: 600px;
+                background-image: url(images/230209_headerbild_zimmer.jpg);
+                background-repeat: no-repeat;
+}
+
+.header_holsteiner h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+}
+
+.header_holsteiner h2 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 0px;
+}
+
+.p2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+                line-height: 16pt;
+}
+
+.detailHol h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                color: #e5ac1b;
+                margin-top: 0px;               
+}
+
+.detailHol h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 40px;               
+}
+
+.p3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                line-height: 16pt;
+                margin: 20px 0px 20px 0px;
+}
+
+
+.detailHol h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+
+.detailHol {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 200px 0px 200px;
+}
+
+.detailHolBild1 {
+                border-radius: 40px 40px 40px 40px
+}
+
+.tabelle {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                margin-top: 20px;                
+}
+
+.tabelleleft {
+                list-style: none;
+                margin-right: 50px;
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+}
+
+.tabelleright {
+                list-style: none;
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt
+}
+
+.jetztbuchen {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+}
+
+.jetztbuchen a {
+                text-decoration: none;
+}
+
+.bookHolsteinerBox {
+                background-color: rgba(51, 44, 36, 0.8);
+                padding: 10px;
+                margin: 36px 0px 0px 0px;
+                border-radius: 10px 10px 10px 10px;
+                text-decoration: none;
+}
+
+.ho {
+                text-decoration: none;
+}
+
+.bookHolsteinerBox2 {
+                background-color: rgba(51, 44, 36, 0.8);
+                padding: 10px 30px 10px 30px;
+                margin: 36px 0px 0px 80px;
+                border-radius: 10px 10px 10px 10px;
+}
+
+.bookHolsteinerBox2:hover {
+                background-color: #e5ac1b; 
+}
+
+.detailbilder {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                margin-left: 235px;
+}
+
+.detailbilder img {
+                border-radius: 20px 20px 20px 20px;
+                margin: 36px 10px 100px 10px;
+                
+}
+
+
+    
+#lmk {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+}
+
+.zimmer_1 img { 
+                border-radius: 40px 40px 40px 40px;
+}
+
+.zimmer_1_text h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;         
+}
+
+.zimmer_1_text h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.zd_1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px;
+                list-style: none; 
+}
+
+.zimmer_1_text h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.au_1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px; 
+                list-style: none; 
+}
+
+.zimmer_2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 200px 100px 200px;              
+}
+
+.bookHannoveraner {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                align-self: flex-end;
+                margin-top: 36px;
+                background-color: rgba(51, 44, 36, 0.8);
+                padding: 10px;
+                border-radius: 10px 10px 10px 10px;
+}
+
+.bookHannoveraner:hover {
+                background-color: #e5ac1b; 
+}
+
+.zimmer_2 img {
+                border-radius: 40px 40px 40px 40px;
+}
+
+.zimmer_2_text h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;              
+}
+
+.zimmer_2_text h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.zd_2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px;
+                list-style: none; 
+}
+
+.zimmer_2_text h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.au_2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px; 
+                list-style: none; 
+}
+
+.zimmer_3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 200px 100px 200px;              
+}
+
+.bookOldenburger {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                align-self: flex-end;
+                margin-top: 36px;
+                background-color: rgba(51, 44, 36, 0.8);
+                padding: 10px;
+                border-radius: 10px 10px 10px 10px;
+}
+
+.bookOldenburger:hover {
+                background-color: #e5ac1b; 
+}
+
+.zimmer_3 img {
+                border-radius: 40px 40px 40px 40px;
+}
+
+.zimmer_3_text h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;              
+}
+
+.zimmer_3_text h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.zd_3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px;
+                list-style: none; 
+}
+
+.zimmer_3_text h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.au_3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px; 
+                list-style: none; 
+}
+
+.zimmer_4 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 66px 200px 100px 200px;              
+}
+
+.bookLipizzaner {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                align-self: flex-end;
+                margin-top: 36px;
+                background-color: rgba(51, 44, 36, 0.8);
+                padding: 10px;
+                border-radius: 10px 10px 10px 10px;
+}
+
+.bookLipizzaner:hover {
+                background-color: #e5ac1b; 
+}
+
+.zimmer_4 img {
+                border-radius: 40px 40px 40px 40px;
+}
+
+.zimmer_4_text h1 {
+                font-size: 18pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;              
+}
+
+.zimmer_4_text h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.zd_4 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px;
+                list-style: none; 
+}
+
+.zimmer_4_text h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                font-weight: 200;
+                margin-top: 20px;               
+}
+
+.au_4 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 14pt;
+                margin-top: 20px; 
+                list-style: none; 
+}
+
+.zimmer_feedback {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                line-height: 16pt;
+}
+
+.zimmer_feedback a {
+                text-decoration: none;
+                color: #e5ac1b; 
+}
+
+.zimmer_feedback a:hover {
+                text-decoration: none;
+                color: #e5ac1b;
+                font-size: 14pt; 
+}
+
+.freizeit_feedback {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                line-height: 16pt;
+                margin-top:100px;
+}
+
+.freizeit_feedback a {
+                text-decoration: none;
+                color: #e5ac1b; 
+}
+
+.freizeit_feedback a:hover {
+                text-decoration: none;
+                color: #e5ac1b;
+                font-size: 14pt; 
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+.header_freizeit {
+                padding-top: 80px;
+                width: 100%;
+                height: 600px;
+                background-image: url(images/230209_headerbild_freizeit.jpg);
+                background-repeat: no-repeat;
+}
+
+.header_freizeit h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+}
+
+.header_ueberuns {
+                padding-top: 80px;
+                width: 100%;
+                height: 600px;
+                background-image: url(images/230214_minions.jpg);
+                background-repeat: no-repeat;
+}
+
+.header_ueberuns h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+}
+
+.content_ueberuns .p1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+                line-height: 16pt;
+                margin-bottom: 50px;
+}
+
+.content_ueberuns h2 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+}
+
+.content_ueberuns_flex .p2 {
+                 margin: 100px 0px 100px 0px;
+                 
+}
+
+.content_ueberuns_flex .p2 a {
+                 color: #e5ac1b;
+                 text-decoration: none; 
+                 
+}
+
+.content_ueberuns_flex .p2 a:hover {
+                 font-size: 14pt; 
+                 
+}
+
+
+.dave {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 40px 300px 0px 300px;
+}
+
+.dave h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;
+}
+
+.dave h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+}
+
+.dave p {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+                line-height: 16pt;
+}
+
+.dave h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+                 
+}
+
+.dave h3:hover {
+                background-color: #e5ac1b; 
+}
+
+.bob {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 50px 300px 0px 300px;
+}
+
+.bob h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;
+}
+
+.bob h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+}
+
+.bob p {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+                line-height: 16pt;
+}
+
+.bob h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+                 
+}
+
+.bob h3:hover {
+                background-color: #e5ac1b; 
+}
+
+.stuart {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 50px 300px 0px 300px;
+}
+
+.stuart h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;
+}
+
+.stuart h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+}
+
+.stuart p {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+                line-height: 16pt;
+}
+
+.stuart h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+                 
+}
+
+.stuart h3:hover {
+                background-color: #e5ac1b; 
+}
+
+
+.carl {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 50px 300px 100px 300px;
+}
+
+.carl h1 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                color: #e5ac1b;
+}
+
+.carl h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+}
+
+.carl p {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+                text-align: left;
+                line-height: 16pt;
+}
+
+.carl h3 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                margin-top: 30px;
+                color: #ffffff;
+                text-align: center;
+                background-color: rgba(51, 44, 36, 0.8); 
+                padding: 10px;
+                width: 150px;
+                border-radius: 10px;
+                 
+}
+
+.carl h3:hover {
+                background-color: #e5ac1b; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header_anfahrt {
+                padding-top: 80px;
+                width: 100%;
+                height: 600px;
+                background-image: url(images/230213_gelbes_ross.jpg);
+                background-repeat: no-repeat;
+}
+
+.header_anfahrt h1 {
+                font-size: 36pt;
+                font-family: arial, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                margin-top: 100px;
+}
+
+.content_kontakt {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex:start;
+                align-items: center;
+                margin-top: 50px;
+}
+
+#kon {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+}
+
+.content_kontakt p  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: center;
+                margin-top: 50px;
+}
+
+.content_kontakt h2 {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                margin-top: 50px;
+}
+
+.content_kontakt table {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: left;
+                margin-top: 50px;
+}
+
+.content_kontakt th {
+                padding: 0px 10px 0px 10px;
+}
+
+.uhr {
+                font-size: 12pt;
+                font-weight: 300;
+}
+
+.map {
+                margin: 66px 0px 0px 0px;
+                border-radius: 40px;
+}
+
+.content_kontakt .p2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                margin-top: 100px;
+}
+
+.content_kontakt a {
+                text-decoration: none;
+                color: #e5ac1b; 
+}
+
+.content_kontakt a:hover {
+                text-decoration: none;
+                font-size: 14pt; 
+}
+
+.content_impressum {
+                text-align: center;
+                margin-top: 50px;
+}
+
+#imp {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+}
+
+.content_impressum h2 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 50px;
+}
+
+.content_impressum h3 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+}
+
+.content_impressum h4 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+}
+
+.content_impressum h5 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+}
+
+.content_impressum h6 {
+                font-size: 14pt;
+                font-family: arial, sans-serif;
+                margin-top: 20px;
+}
+
+.content_impressum .p1  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                margin-top: 20px;
+}
+
+
+.content_impressum .p2  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                margin-top: 20px;
+}
+
+.content_impressum .p3  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: center;
+                margin-top: 20px;
+}
+
+.content_impressum .p4  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: center;
+                margin-top: 20px;
+}
+
+.content_impressum .p5  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: center;
+}
+
+.content_impressum .p6  {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                line-height: 16pt;
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 100px;
+}
+
+
+
+
+
+
+#Buchungszeiträume {
+                font-size: 24pt;
+                font-family: arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+}
+
+.legende {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 50px;
+}
+
+.th1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                padding-left: 7px;
+                
+}
+
+.th2 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: left;
+                padding-left: 7px;
+                
+}
+
+.Personen1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;  
+}
+
+.Personen {
+                width: 250px;
+                border: solid 2px;
+                border-radius: 10px;
+                margin-top: 50px;
+                padding: 10px 0px 10px 0px;
+}
+
+.Personen1 h1 {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                text-align: center; 
+}
+
+.Kalender_Reihe_1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 50px 200px 0px 200px;                
+}
+
+.Januar h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_januar {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_januar th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_januar td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                background-color: rgba(51, 44, 36, 0.8);
+                text-align: center;
+}
+
+.belegt {
+                background-color: #e5ac1b;
+                text-align: center;
+}
+
+.Februar h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_februar {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_februar th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_februar td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.März h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_märz {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_märz th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_märz td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.April h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_april {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_april th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_april td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.Kalender_Reihe_2 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 50px 200px 0px 200px;
+                
+}
+
+.Mai h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_mai {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_mai th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_mai td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.Juni h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_juni {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_juni th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_juni td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.Juli h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_juli {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_juli th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_juli td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.August h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_august {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_august th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_august td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+
+
+
+
+.Kalender_Reihe_3 {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin: 50px 200px 100px 200px;
+                
+}
+
+.September h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_september {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_september th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_september td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.Oktober h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_oktober {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_oktober th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_oktober td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.November h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_november {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_november th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_november td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+.Dezember h2 {
+                font size: 16pt;
+                font-family: arial, sans-serif;
+                width: 250px;
+                text-align: center;
+}
+
+.kalender_dezember {
+                width: 250px;
+                padding-top: 20px;
+                border-spacing: 5px;
+}
+
+.kalender_dezember th {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+}
+
+.kalender_dezember td {
+                font-size: 12pt;
+                font-family: arial, sans-serif;
+                width: 14.2857142857%;
+                padding: 6px 0px 6px 0px;
+                border-radius: 40px;
+                color: #ffffff;
+}
+
+.frei {
+                text-align: center;
+}
+
+.belegt {
+                text-align: center;
+}
+
+
+
+
+
+
+
+.z1 {
+                box-shadow: 8px 8px 20px #61584e;
+                
+                
+}
+
+.z3 {
+                box-shadow: 8px 8px 20px #61584e; 
+                
+                
+}
+
+.z4 {
+                box-shadow: 8px 8px 20px #61584e;
+                
+                
+}
+
+.logo {
+                width: 300px;
+                height: auto;
+                align-self: center;
+                margin-bottom: 100px;
+}
+
+
+.logo_w {
+                align-self: flex-start;
+                margin-right: 500px;
+}

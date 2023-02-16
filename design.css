@@ -1988,3 +1988,15 @@ a:hover {
                 align-self: flex-start;
                 margin-right: 500px;
 }
+
+
+.home_content a {
+                text-decoration: none;
+                color:  #e5ac1b;
+}
+
+.home_content a:hover {
+                text-decoration: none;
+                color:  #e5ac1b;
+                font-size: 14pt;
+}
